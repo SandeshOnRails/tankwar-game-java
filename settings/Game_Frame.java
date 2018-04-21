@@ -8,7 +8,7 @@ public class Game_Frame {
     private Game_Mode gameEvent;
     int pos = 0;
 
-    public Game_Watch(Game_Mode game, int movement[], int frame_Size) {
+    public Game_Frame(Game_Mode game, int movement[], int frame_Size) {
         this.gameEvent = game;
         this.movement = movement;
         this.frame_Size = frame_Size;
