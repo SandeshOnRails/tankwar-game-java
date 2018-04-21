@@ -1,10 +1,9 @@
-package Game;
 
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.image.ImageObserver;
 
-import tank_misc.Game_Projectiles;
+import settings.Game_Projectile;
 
 public class Tank_Bullet extends Tank_Main implements Game_Projectile {
 
