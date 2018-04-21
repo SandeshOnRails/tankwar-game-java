@@ -30,7 +30,7 @@ public class Tank_Background extends Tank_Main implements Game_Background {
 
         }
         catch(Exception e){
-            System.out.println( e.getMessage());
+            System.out.print( e.getMessage());
         }
     }
 
