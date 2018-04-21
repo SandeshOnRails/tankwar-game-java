@@ -1,4 +1,3 @@
-package Game;
 
 
 import java.awt.Graphics;
@@ -10,8 +9,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Observable;
 
-import tank_misc.Game_Mode;
-import tank_misc.Game_Moves;
+import settings.Game_Mode;
+import settings.Game_Moves;
 
 public class Tank_Player extends Tank_Main implements Game_Moves {
 
