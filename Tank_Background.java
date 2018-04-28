@@ -66,12 +66,12 @@ public class Tank_Background extends Tank_Main implements Game_Background {
     }
 
     @Override
-    public void game_Audio() {
+    public void game_music() {
         backgroundMusic.loop();
     }
 
     @Override
-    public void game_End() {
+    public void game_over() {
         if (gameOver) {
 
             backgroundMusic.stop();
