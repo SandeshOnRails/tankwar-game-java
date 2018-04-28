@@ -132,7 +132,7 @@ public class Tank_Main extends JApplet implements Runnable {
     }
 
     public void start() {
-        theBackground.game_Audio();
+        theBackground.game_music();
         main_Thread = new Thread(this);
         main_Thread.setPriority(Thread.MIN_PRIORITY);
         main_Thread.start();
@@ -265,7 +265,7 @@ public class Tank_Main extends JApplet implements Runnable {
                 }
             }
         } else {
-            theBackground.game_End();
+            theBackground.game_over();
             theBackground.draw(graphics, this);
             String gameOverMsg;
             String gameOverMsg1;
