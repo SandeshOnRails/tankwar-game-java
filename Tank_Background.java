@@ -16,7 +16,7 @@ public class Tank_Background extends Tank_Main implements Game_Background {
     BufferedImage Buffered_Map;
     BufferedImage background_map;
     
-    URL url_sound = Tank_Main.class.getResource("assets/Music.mp3");
+    URL url_sound = Tank_Main.class.getResource("assets/music.wav");
     AudioClip backgroundMusic = newAudioClip(url_sound);
     Boolean gameOver = true;
     
