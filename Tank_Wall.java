@@ -6,7 +6,7 @@ import settings.Game_Update;
 
 public class Tank_Wall extends Tank_Main implements Game_Update {
 
-    Image wallImage = getSprite("settings/Wall2.gif");
+    Image wallImage = getSprite("assets/Wall2.gif");
     int x, y, width, height, invisible, time;
     boolean isVisible;
 
