@@ -276,11 +276,10 @@ public class Tank_Main extends JApplet implements Runnable {
                 gameOverMsg2 = "Player1 Wins !!";
 
             } else {
-                gameOverMsg = "Player2: " + (player_Tanks[1].points+5) +"\n" + "Player1: " + player_Tanks[1].points
-                        +"\n" + "Player2 Wins !!";
-                gameOverMsg1 = "Player2: " + player_Tanks[2].points;
+                gameOverMsg = "Player2: " + (player_Tanks[1].points+5);
+                gameOverMsg1 = "Player1: " + player_Tanks[2].points;
 
-                gameOverMsg2 = "Player1 Wins !!";
+                gameOverMsg2 = "Player2 Wins !!";
 
             }
             Font victory_font = new Font("Osaka", Font.BOLD, 60);
